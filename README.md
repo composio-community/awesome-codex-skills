@@ -145,6 +145,7 @@ Codex skills are modular instruction bundles that tell Codex how to execute a ta
 
 ### Meta & Utilities
 
+- [Adaptive Model Orchestrator](https://github.com/chips-lxm/adaptive-model-orchestrator) - Dynamically routes Codex work across Astra, Sol, Terra, and Luna using task complexity, dependencies, parallelism, and verification risk.
 - [brand-guidelines/](./brand-guidelines/) - Apply OpenAI/Codex brand colors and typography to artifacts.
 - [agent-deep-links/](./agent-deep-links/) - Build and validate deep links for Codex, Cursor, and VS Code with Slack-safe formatting and fallback guidance.
 - [canvas-design/](./canvas-design/) - Generate structured canvas layouts and design artifacts.
