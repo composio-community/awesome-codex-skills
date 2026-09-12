@@ -99,6 +99,7 @@ Codex skills are modular instruction bundles that tell Codex how to execute a ta
 - [AuraKit](https://github.com/smorky850612/Aurakit) - All-in-one skill framework: 46 modes, 23 sub-agents, 6-layer OWASP security, 10 lifecycle hooks, ~55% token savings. Install: `npx @smorky85/aurakit`
 - [Vibe-Skills](https://github.com/foryourhealth111-pixel/Vibe-Skills) - Governed Codex skill harness for staged, test-driven work: routes 340+ skills through requirement freeze, plan approval, execution, verification evidence, and cross-session memory.
 - [polywave](https://github.com/blackwell-systems/polywave-codex) - Parallel agent coordination with structural merge safety. Scout decomposes, Wave agents implement in isolated worktrees with disjoint file ownership. Same protocol on Claude Code and Codex.
+- [ui-design-agent](https://github.com/muzimu217/ui-design-agent-kit) - Use for UI/product-design tasks: turns plain-language requests into a frozen plan and design contract (semantic tokens, do/don't rules, spring motion presets), scouts licensed material, implements the interface, and verifies it in a real browser with screenshot evidence. Live showcase with 11 demos: https://agent.kcos.club. Install: `python3 ~/.codex/skills/.system/skill-installer/scripts/install-skill-from-github.py --repo muzimu217/ui-design-agent-kit --path .agents/skills/ui-design-agent --name ui-design-agent`
 
 ### Productivity & Collaboration
 
