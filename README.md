@@ -142,6 +142,7 @@ Codex skills are modular instruction bundles that tell Codex how to execute a ta
 - [raffle-winner-picker/](./raffle-winner-picker/) - Randomly select winners with audit-friendly logs.
 - [langsmith-fetch/](./langsmith-fetch/) - Pull LangSmith project/test data for analysis.
 - [helium-mcp/](./helium-mcp/) - Search real-time news with bias scoring, get live market data, ML options pricing, and balanced news synthesis via MCP.
+- [youtube-transcript](https://github.com/tubeagentkit/youtube-transcript-skills) - External repo: fetch YouTube video transcripts, search videos/channels, browse channels, and extract playlists, free tier, no card required. Works with Codex, Claude Code, Cursor, and 70+ other agent clients. Install: `npx skills add tubeagentkit/youtube-transcript-skills` or `npx clawhub@latest install tubeagentkit/youtube-transcript`
 
 ### Meta & Utilities
 
