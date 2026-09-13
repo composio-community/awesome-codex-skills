@@ -101,6 +101,7 @@ Codex skills are modular instruction bundles that tell Codex how to execute a ta
 - [polywave](https://github.com/blackwell-systems/polywave-codex) - Parallel agent coordination with structural merge safety. Scout decomposes, Wave agents implement in isolated worktrees with disjoint file ownership. Same protocol on Claude Code and Codex.
 
 ### Productivity & Collaboration
+- [learn-core](https://github.com/everclear077/codex-learning-plugin/tree/main/plugins/core-learning/skills/learn-core) - Learn through Socratic practice, Feynman teach-back, spaced recall, and evidence-based project assessment, with optional local Anki export. Install: `python3 ~/.codex/skills/.system/skill-installer/scripts/install-skill-from-github.py --repo everclear077/codex-learning-plugin --path plugins/core-learning/skills/learn-core --name learn-core`
 
 - [connect/](./connect/) - Connect Codex to 1000+ apps via the Composio CLI for real actions (Slack, GitHub, Notion, etc.).
 - [connect-apps/](./connect-apps/) - Wire up Composio CLI connections for Claude and kick off app workflows from the shell.
