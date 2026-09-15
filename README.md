@@ -100,6 +100,7 @@ Codex skills are modular instruction bundles that tell Codex how to execute a ta
 - [Vibe-Skills](https://github.com/foryourhealth111-pixel/Vibe-Skills) - Governed Codex skill harness for staged, test-driven work: routes 340+ skills through requirement freeze, plan approval, execution, verification evidence, and cross-session memory.
 - [polywave](https://github.com/blackwell-systems/polywave-codex) - Parallel agent coordination with structural merge safety. Scout decomposes, Wave agents implement in isolated worktrees with disjoint file ownership. Same protocol on Claude Code and Codex.
 
+- [skill-scout](https://github.com/Ming00777/skill-scout) - Find the right skill without guessing the search term. Scans every agent skill directory already on your machine (Codex, Claude Code, TRAE, WorkBuddy, OpenClaw, plus generic `~/.agents/skills/`) and reuses what you already have before searching GitHub, then returns a ranked top 3 with explicit caveats on how much each one actually solves. Install: `npx skills add Ming00777/skill-scout`
 ### Productivity & Collaboration
 
 - [connect/](./connect/) - Connect Codex to 1000+ apps via the Composio CLI for real actions (Slack, GitHub, Notion, etc.).
