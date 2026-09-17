@@ -117,6 +117,7 @@ Codex skills are modular instruction bundles that tell Codex how to execute a ta
 - [support-ticket-triage/](./support-ticket-triage/) - Triage customer support tickets with categories, priority, next actions, and draft replies.
 - [file-organizer/](./file-organizer/) - Organize, rename, and tidy files to keep workspaces clean.
 - [paperjsx/](./paperjsx/) - Generate PPTX presentations, DOCX documents, XLSX spreadsheets, and PDF invoices/reports/charts from structured JSON. Runs locally via `@paperjsx/mcp-server` — no API key, no network calls.
+- [Preflight Decks](https://github.com/MJorgin/preflight-decks) - Concept-first director for HTML presentations: a hard concept gate with three structurally different real previews, a scored critique loop, and Playwright verification at 1280x720 and phone 390x844. Renders on the frontend-slides fixed-stage single-file chassis. Install: `python3 ~/.codex/skills/.system/skill-installer/scripts/install-skill-from-github.py --repo MJorgin/preflight-decks --path skills/preflight-decks --name preflight-decks`
 - [skill-share/](./skill-share/) - Share skills and reusable instructions across teammates.
 - [Taisly Agent Kit](https://github.com/taisly/agent) - Publish approved short-form videos from Codex with a bundled skill, CLI, and remote MCP server for TikTok, Instagram Reels, YouTube Shorts, X, and Facebook.
 
