@@ -92,6 +92,7 @@ Codex skills are modular instruction bundles that tell Codex how to execute a ta
 - [Emdash Skills](https://github.com/megabytespace/claude-skills) - 14-category autonomous product-building OS: CF Workers + Hono + Angular + D1 + Stripe. One-line prompts to deployed SaaS with 94 reference docs, 18 agents, and Codex-native `.agents/skills/` support.
 - [gh-address-comments/](./gh-address-comments/) - Address review or issue comments on the open GitHub PR for the current branch using `gh`.
 - [gh-fix-ci/](./gh-fix-ci/) - Inspect failing GitHub Actions checks, summarize failures, and propose fixes.
+- [github-income-scout](https://github.com/George4177/github-income-scout/tree/main/codex-skills/github-income-scout) - Screen GitHub issues for low-risk Python, automation, CI, and documentation work; reject unsafe, claimed, duplicate, or unfunded tasks; and package Starter Audit or PR action reports. Install: `python3 ~/.codex/skills/.system/skill-installer/scripts/install-skill-from-github.py --repo George4177/github-income-scout --path codex-skills/github-income-scout --name github-income-scout`
 - [mcp-builder/](./mcp-builder/) - Build and evaluate MCP servers with best practices and an evaluation harness.
 - [pr-review-ci-fix/](./pr-review-ci-fix/) - Automated GitHub/GitLab PR review plus CI auto-fix loop via the Composio CLI.
 - [sentry-triage/](./sentry-triage/) - Diagnose Sentry issues by mapping stack frames to local source — no copy-paste.
