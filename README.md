@@ -128,6 +128,7 @@ Codex skills are modular instruction bundles that tell Codex how to execute a ta
 - [content-research-writer/](./content-research-writer/) - Research and draft content with sourced citations.
 - [diasporic-intelligence](https://github.com/MinistaJazz/diasporic-intelligence) - External repo: source-credit skill for consent-governed lineage AI with attribution, provenance, revocation, and non-impersonation boundaries.
 - [novel-writing](https://github.com/wgwtest/novel-writing) - External repo: public Codex skill for fiction planning, chapter drafting, scene continuation, and revision.
+- [story-skills](https://github.com/danjdewhurst/story-skills) - External repo: 8-skill fiction system for starting stories, worldbuilding, character management, plot arcs, chapter drafting, revision, continuity checks, and series canon. Triggers when Codex is asked to start, write, continue, or revise fiction in markdown; includes a CLI that deterministically checks dead-character appearances, setup/payoff order, and timelines.
 - [tailored-resume-generator/](./tailored-resume-generator/) - Tailor resumes to job descriptions with quantified impact.
 - [unslop](https://github.com/MohamedAbdallah-14/unslop) - External repo: CLI and MCP server that removes AI writing patterns from text: tricolons, em-dash overuse, hedging stacks, and sycophancy openers. Works with Codex, Claude Code, Gemini CLI, and Cursor. Five intensity levels and a lint-only audit mode.
 
