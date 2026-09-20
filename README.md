@@ -102,6 +102,7 @@ Codex skills are modular instruction bundles that tell Codex how to execute a ta
 
 ### Productivity & Collaboration
 
+- [concept-to-story](https://github.com/autoloading8822/concept-to-story-skill) - Turn concepts in user-provided PDFs into source-grounded stories, visual memory anchors, analogy boundaries, and scenario-based active recall.
 - [connect/](./connect/) - Connect Codex to 1000+ apps via the Composio CLI for real actions (Slack, GitHub, Notion, etc.).
 - [connect-apps/](./connect-apps/) - Wire up Composio CLI connections for Claude and kick off app workflows from the shell.
 - [issue-triage/](./issue-triage/) - Triage Linear or Jira backlogs and run bug sweeps from the terminal.
