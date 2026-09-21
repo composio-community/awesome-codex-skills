@@ -119,6 +119,7 @@ Codex skills are modular instruction bundles that tell Codex how to execute a ta
 - [paperjsx/](./paperjsx/) - Generate PPTX presentations, DOCX documents, XLSX spreadsheets, and PDF invoices/reports/charts from structured JSON. Runs locally via `@paperjsx/mcp-server` — no API key, no network calls.
 - [skill-share/](./skill-share/) - Share skills and reusable instructions across teammates.
 - [Taisly Agent Kit](https://github.com/taisly/agent) - Publish approved short-form videos from Codex with a bundled skill, CLI, and remote MCP server for TikTok, Instagram Reels, YouTube Shorts, X, and Facebook.
+- [session-peer](https://github.com/abruption/session-peer-skill) - Discover and message Claude Code, Codex, and live registered Antigravity sessions locally or over SSH using native inboxes and queues, explicit reply addresses, optional MCP tools, and a paired-device end-to-end encrypted relay. Requires the [session-peer runtime](https://github.com/abruption/session-peer).
 
 ### Communication & Writing
 - [codex-sms-verification](https://github.com/virtualsms-io/codex-sms-verification) - External repo: real-SIM SMS verification for AI agents via VirtualSMS MCP. 145+ countries, 2000+ services, both hosted (mcp.virtualsms.io) and local stdio transports.
