@@ -99,6 +99,9 @@ Codex skills are modular instruction bundles that tell Codex how to execute a ta
 - [AuraKit](https://github.com/smorky850612/Aurakit) - All-in-one skill framework: 46 modes, 23 sub-agents, 6-layer OWASP security, 10 lifecycle hooks, ~55% token savings. Install: `npx @smorky85/aurakit`
 - [Vibe-Skills](https://github.com/foryourhealth111-pixel/Vibe-Skills) - Governed Codex skill harness for staged, test-driven work: routes 340+ skills through requirement freeze, plan approval, execution, verification evidence, and cross-session memory.
 - [polywave](https://github.com/blackwell-systems/polywave-codex) - Parallel agent coordination with structural merge safety. Scout decomposes, Wave agents implement in isolated worktrees with disjoint file ownership. Same protocol on Claude Code and Codex.
+- [RageClick](https://github.com/K-kiron/RageClick) - Replay local web interaction failures with browser evidence and regression checks.
+- [ProveIt](https://github.com/K-kiron/ProveIt) - Check that the same pytest regression test fails before a committed fix and passes after it.
+- [RepoQuest](https://github.com/K-kiron/RepoQuest) - Turn verified Python bug fixes into offline debugging mysteries with source evidence and progressive hints.
 
 ### Productivity & Collaboration
 
@@ -142,6 +145,7 @@ Codex skills are modular instruction bundles that tell Codex how to execute a ta
 - [raffle-winner-picker/](./raffle-winner-picker/) - Randomly select winners with audit-friendly logs.
 - [langsmith-fetch/](./langsmith-fetch/) - Pull LangSmith project/test data for analysis.
 - [helium-mcp/](./helium-mcp/) - Search real-time news with bias scoring, get live market data, ML options pricing, and balanced news synthesis via MCP.
+- [PaperCourt](https://github.com/K-kiron/PaperCourt) - Trace empirical ML paper claims to supplied evidence, repeatable numerical checks, and proposed falsifying experiments.
 
 ### Meta & Utilities
 
@@ -155,6 +159,7 @@ Codex skills are modular instruction bundles that tell Codex how to execute a ta
 - [template-skill/](./template-skill/) - Starter template for building new skills.
 - [skill-installer/](./skill-installer/) - Helper scripts to install skills from curated lists or GitHub paths.
 - [skill-creator/](./skill-creator/) - Guidance for building effective Codex skills with progressive disclosure.
+- [SkillClash](https://github.com/K-kiron/SkillClash) - Review task-specific conflicts between selected Codex skills and project rules, with exact source citations.
 
 ## Using Skills in Codex
 
