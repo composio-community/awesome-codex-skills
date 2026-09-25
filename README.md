@@ -155,6 +155,7 @@ Codex skills are modular instruction bundles that tell Codex how to execute a ta
 - [template-skill/](./template-skill/) - Starter template for building new skills.
 - [skill-installer/](./skill-installer/) - Helper scripts to install skills from curated lists or GitHub paths.
 - [skill-creator/](./skill-creator/) - Guidance for building effective Codex skills with progressive disclosure.
+- [Unified AI System](https://github.com/happy520ai/unified-ai-system) - Public Preview of a terminal-first, self-hosted AI gateway with a Codex plugin and bounded MCP tools for provider-free prompt enhancement, health, readiness, credential-free fake-provider chat, knowledge, workflows, workforce inspection and read-only agent governance.
 
 ## Using Skills in Codex
 
