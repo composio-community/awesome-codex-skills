@@ -130,6 +130,7 @@ Codex skills are modular instruction bundles that tell Codex how to execute a ta
 - [novel-writing](https://github.com/wgwtest/novel-writing) - External repo: public Codex skill for fiction planning, chapter drafting, scene continuation, and revision.
 - [tailored-resume-generator/](./tailored-resume-generator/) - Tailor resumes to job descriptions with quantified impact.
 - [unslop](https://github.com/MohamedAbdallah-14/unslop) - External repo: CLI and MCP server that removes AI writing patterns from text: tricolons, em-dash overuse, hedging stacks, and sycophancy openers. Works with Codex, Claude Code, Gemini CLI, and Cursor. Five intensity levels and a lint-only audit mode.
+- [send-cold-email](https://github.com/AddisonHoff/sendsets/tree/main/skills/send-cold-email) - External repo: send a cold email sequence to a lead list through the Sendsets MCP server or CLI: mailbox check, merge-field validation, a test send you approve, launch on explicit instruction, and replies. Also installable as a Codex plugin with `codex plugin marketplace add AddisonHoff/sendsets`.
 
 ### Data & Analysis
 
