@@ -152,6 +152,7 @@ Codex skills are modular instruction bundles that tell Codex how to execute a ta
 - [slack-gif-creator/](./slack-gif-creator/) - Generate GIFs for Slack with captions and styling.
 - [theme-factory/](./theme-factory/) - Create reusable theme tokens and palettes.
 - [video-downloader/](./video-downloader/) - Download and prepare videos for offline review.
+- [paint-video](https://github.com/nzl153/paint-video-skill) - External repo: hand-painted animated shorts and music videos drawn frame by frame in code (watercolor, ink or crayon), from storyboard to MP4, with a per-shot visual self-check.
 - [template-skill/](./template-skill/) - Starter template for building new skills.
 - [skill-installer/](./skill-installer/) - Helper scripts to install skills from curated lists or GitHub paths.
 - [skill-creator/](./skill-creator/) - Guidance for building effective Codex skills with progressive disclosure.
