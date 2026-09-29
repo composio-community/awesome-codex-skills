@@ -119,7 +119,7 @@ Codex skills are modular instruction bundles that tell Codex how to execute a ta
 - [paperjsx/](./paperjsx/) - Generate PPTX presentations, DOCX documents, XLSX spreadsheets, and PDF invoices/reports/charts from structured JSON. Runs locally via `@paperjsx/mcp-server` — no API key, no network calls.
 - [skill-share/](./skill-share/) - Share skills and reusable instructions across teammates.
 - [Taisly Agent Kit](https://github.com/taisly/agent) - Publish approved short-form videos from Codex with a bundled skill, CLI, and remote MCP server for TikTok, Instagram Reels, YouTube Shorts, X, and Facebook.
-
+- [Project Cross Migration](https://github.com/zhouxin121/project-cross-migration-free) - Migrate an agent's full project state (conversations, memory, persona, tools, environment) across frameworks or machines with five-layer backup/restore. 1,418-message real migration verified on Claude Code / Codex / OpenClaw. Python stdlib only, MIT.
 ### Communication & Writing
 - [codex-sms-verification](https://github.com/virtualsms-io/codex-sms-verification) - External repo: real-SIM SMS verification for AI agents via VirtualSMS MCP. 145+ countries, 2000+ services, both hosted (mcp.virtualsms.io) and local stdio transports.
 
