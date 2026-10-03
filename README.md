@@ -139,6 +139,7 @@ Codex skills are modular instruction bundles that tell Codex how to execute a ta
 - [developer-growth-analysis/](./developer-growth-analysis/) - Analyze Codex chat history for coding patterns and learning gaps.
 - [lead-research-assistant/](./lead-research-assistant/) - Research leads and enrich records with firmographic data.
 - [domain-name-brainstormer/](./domain-name-brainstormer/) - Brainstorm available domain names with criteria and checks.
+- [figure-rebuild](https://github.com/TH1RT3EN-LI/figure-rebuild) - Reconstruct paper figures and technical diagrams as editable PowerPoint geometry, live text, and connectors, with audited LaTeX formula assets. Install: `npx skills add TH1RT3EN-LI/figure-rebuild`
 - [raffle-winner-picker/](./raffle-winner-picker/) - Randomly select winners with audit-friendly logs.
 - [langsmith-fetch/](./langsmith-fetch/) - Pull LangSmith project/test data for analysis.
 - [helium-mcp/](./helium-mcp/) - Search real-time news with bias scoring, get live market data, ML options pricing, and balanced news synthesis via MCP.
