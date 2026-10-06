@@ -94,6 +94,7 @@ Codex skills are modular instruction bundles that tell Codex how to execute a ta
 - [gh-fix-ci/](./gh-fix-ci/) - Inspect failing GitHub Actions checks, summarize failures, and propose fixes.
 - [mcp-builder/](./mcp-builder/) - Build and evaluate MCP servers with best practices and an evaluation harness.
 - [pr-review-ci-fix/](./pr-review-ci-fix/) - Automated GitHub/GitLab PR review plus CI auto-fix loop via the Composio CLI.
+- [Shipvela publishing](https://github.com/stefanautomateed/shipvela-codex/tree/main/plugins/shipvela/skills/publish) - Publish supported websites through OAuth MCP, with explicit owner confirmation for static uploads, durable operation tracking and build-log inspection; requires a Shipvela account and hosting allowance.
 - [sentry-triage/](./sentry-triage/) - Diagnose Sentry issues by mapping stack frames to local source — no copy-paste.
 - [webapp-testing/](./webapp-testing/) - Run targeted web app tests and summarize results.
 - [AuraKit](https://github.com/smorky850612/Aurakit) - All-in-one skill framework: 46 modes, 23 sub-agents, 6-layer OWASP security, 10 lifecycle hooks, ~55% token savings. Install: `npx @smorky85/aurakit`
