@@ -119,6 +119,7 @@ Codex skills are modular instruction bundles that tell Codex how to execute a ta
 - [paperjsx/](./paperjsx/) - Generate PPTX presentations, DOCX documents, XLSX spreadsheets, and PDF invoices/reports/charts from structured JSON. Runs locally via `@paperjsx/mcp-server` — no API key, no network calls.
 - [skill-share/](./skill-share/) - Share skills and reusable instructions across teammates.
 - [Taisly Agent Kit](https://github.com/taisly/agent) - Publish approved short-form videos from Codex with a bundled skill, CLI, and remote MCP server for TikTok, Instagram Reels, YouTube Shorts, X, and Facebook.
+- [using-bulkpublish](https://github.com/azeemkafridi/bulkpublish-ai-toolkit/tree/main/skills/using-bulkpublish) - External repo: draft, schedule, cross-post, retry and measure social media posts on 15 platforms through the BulkPublish MCP server (MCP server must be configured). Sibling skills for scheduling, media, channels, inbox, and analytics live in the same `skills/` folder. Install: `python3 ~/.codex/skills/.system/skill-installer/scripts/install-skill-from-github.py --repo azeemkafridi/bulkpublish-ai-toolkit --path skills/using-bulkpublish --name using-bulkpublish`
 
 ### Communication & Writing
 - [codex-sms-verification](https://github.com/virtualsms-io/codex-sms-verification) - External repo: real-SIM SMS verification for AI agents via VirtualSMS MCP. 145+ countries, 2000+ services, both hosted (mcp.virtualsms.io) and local stdio transports.
