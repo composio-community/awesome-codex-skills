@@ -99,6 +99,7 @@ Codex skills are modular instruction bundles that tell Codex how to execute a ta
 - [AuraKit](https://github.com/smorky850612/Aurakit) - All-in-one skill framework: 46 modes, 23 sub-agents, 6-layer OWASP security, 10 lifecycle hooks, ~55% token savings. Install: `npx @smorky85/aurakit`
 - [Vibe-Skills](https://github.com/foryourhealth111-pixel/Vibe-Skills) - Governed Codex skill harness for staged, test-driven work: routes 340+ skills through requirement freeze, plan approval, execution, verification evidence, and cross-session memory.
 - [polywave](https://github.com/blackwell-systems/polywave-codex) - Parallel agent coordination with structural merge safety. Scout decomposes, Wave agents implement in isolated worktrees with disjoint file ownership. Same protocol on Claude Code and Codex.
+- [bestax-skills](https://github.com/allxsmith/bestax/tree/main/skills) - Seven skills for React apps built with Bestax, the component library for Bulma v1. Codex triggers them when a task touches forms, page layouts, theming and dark mode, icons, CSS size, custom components, or migration from react-bulma-components, rbx or bloomer. Install one: `python skill-installer/scripts/install-skill-from-github.py --repo allxsmith/bestax --path skills/bestax-form`
 
 ### Productivity & Collaboration
 
