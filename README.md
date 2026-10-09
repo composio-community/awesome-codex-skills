@@ -155,6 +155,7 @@ Codex skills are modular instruction bundles that tell Codex how to execute a ta
 - [template-skill/](./template-skill/) - Starter template for building new skills.
 - [skill-installer/](./skill-installer/) - Helper scripts to install skills from curated lists or GitHub paths.
 - [skill-creator/](./skill-creator/) - Guidance for building effective Codex skills with progressive disclosure.
+- [drevon](https://github.com/csakash/drevon) - `npx drevon init` turns any directory into an AI workspace with one shared config, persistent cross-session memory, prompts and skills for Claude Code, Codex, Copilot, Cursor, Windsurf, Cline, Aider and Continue. MIT.
 
 ## Using Skills in Codex
 
