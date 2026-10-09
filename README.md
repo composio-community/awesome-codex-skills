@@ -138,6 +138,7 @@ Codex skills are modular instruction bundles that tell Codex how to execute a ta
 - [datadog-logs/](./datadog-logs/) - Filter Datadog logs from the shell via the Composio CLI, with JSON-friendly output and digest workflows.
 - [developer-growth-analysis/](./developer-growth-analysis/) - Analyze Codex chat history for coding patterns and learning gaps.
 - [lead-research-assistant/](./lead-research-assistant/) - Research leads and enrich records with firmographic data.
+- [url-to-markdown](https://github.com/replynodes/replynodes-agent-skills/tree/main/skills/url-to-markdown) - Fetch a public webpage as clean Markdown for agent context via [ReplyNodes Markdown API](https://replynodes.com/markdown-api/).
 - [domain-name-brainstormer/](./domain-name-brainstormer/) - Brainstorm available domain names with criteria and checks.
 - [raffle-winner-picker/](./raffle-winner-picker/) - Randomly select winners with audit-friendly logs.
 - [langsmith-fetch/](./langsmith-fetch/) - Pull LangSmith project/test data for analysis.
