@@ -118,6 +118,7 @@ Codex skills are modular instruction bundles that tell Codex how to execute a ta
 - [file-organizer/](./file-organizer/) - Organize, rename, and tidy files to keep workspaces clean.
 - [paperjsx/](./paperjsx/) - Generate PPTX presentations, DOCX documents, XLSX spreadsheets, and PDF invoices/reports/charts from structured JSON. Runs locally via `@paperjsx/mcp-server` — no API key, no network calls.
 - [skill-share/](./skill-share/) - Share skills and reusable instructions across teammates.
+- [1human motion references](https://github.com/mdagnolops/1human-reels/tree/main/skills/agent-reels) - Find credited motion references for visual tasks and consult the private library shared by a human and their agent. Registration, installation, and publishing require the owner's authorization.
 - [Taisly Agent Kit](https://github.com/taisly/agent) - Publish approved short-form videos from Codex with a bundled skill, CLI, and remote MCP server for TikTok, Instagram Reels, YouTube Shorts, X, and Facebook.
 
 ### Communication & Writing
