@@ -155,6 +155,7 @@ Codex skills are modular instruction bundles that tell Codex how to execute a ta
 - [template-skill/](./template-skill/) - Starter template for building new skills.
 - [skill-installer/](./skill-installer/) - Helper scripts to install skills from curated lists or GitHub paths.
 - [skill-creator/](./skill-creator/) - Guidance for building effective Codex skills with progressive disclosure.
+- [goal-instruction-writer](https://github.com/wu736139669/goal-instruction-writer) - Preview agent loops and write drift-resistant Goal instructions with explicit evidence and terminal states. Install: `npx skills add wu736139669/goal-instruction-writer --skill goal-instruction-writer -g -a codex -y`
 
 ## Using Skills in Codex
 
