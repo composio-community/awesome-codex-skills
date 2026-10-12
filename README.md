@@ -106,6 +106,7 @@ Codex skills are modular instruction bundles that tell Codex how to execute a ta
 - [connect-apps/](./connect-apps/) - Wire up Composio CLI connections for Claude and kick off app workflows from the shell.
 - [issue-triage/](./issue-triage/) - Triage Linear or Jira backlogs and run bug sweeps from the terminal.
 - [linear/](./linear/) - Manage issues, projects, and team workflows in Linear.
+- [Masaka for Codex](https://github.com/masakaai/codex-multiple-env) - Keep multiple Codex accounts and ChatGPT workspaces signed in with isolated `CODEX_HOME` profiles, official browser login ownership, usage-window visibility, and explicit Direct/Proxy switching boundaries. Install: `npm install -g @masakaai/codex-multiple-env`
 - [meeting-insights-analyzer/](./meeting-insights-analyzer/) - Analyze meeting transcripts for themes, risks, and follow-ups.
 - [meeting-notes-and-actions/](./meeting-notes-and-actions/) - Turn meeting transcripts into summaries with decisions and owner-tagged action items.
 - [internal-comms/](./internal-comms/) - Craft internal announcements, updates, and stakeholder messaging.
