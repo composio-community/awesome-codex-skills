@@ -103,6 +103,7 @@ Codex skills are modular instruction bundles that tell Codex how to execute a ta
 ### Productivity & Collaboration
 
 - [connect/](./connect/) - Connect Codex to 1000+ apps via the Composio CLI for real actions (Slack, GitHub, Notion, etc.).
+- [whop-quick-scaler-launcher](https://github.com/MAJOR-AGV/whop-quick-scaler-launcher) - Set up a Whop store (product, price, checkout link, sales page) with a preview, explicit approval and read-back of what was saved, via the official Whop MCP. Unofficial. Install: `npx skills add MAJOR-AGV/whop-quick-scaler-launcher`
 - [connect-apps/](./connect-apps/) - Wire up Composio CLI connections for Claude and kick off app workflows from the shell.
 - [issue-triage/](./issue-triage/) - Triage Linear or Jira backlogs and run bug sweeps from the terminal.
 - [linear/](./linear/) - Manage issues, projects, and team workflows in Linear.
