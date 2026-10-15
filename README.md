@@ -118,6 +118,7 @@ Codex skills are modular instruction bundles that tell Codex how to execute a ta
 - [file-organizer/](./file-organizer/) - Organize, rename, and tidy files to keep workspaces clean.
 - [paperjsx/](./paperjsx/) - Generate PPTX presentations, DOCX documents, XLSX spreadsheets, and PDF invoices/reports/charts from structured JSON. Runs locally via `@paperjsx/mcp-server` — no API key, no network calls.
 - [skill-share/](./skill-share/) - Share skills and reusable instructions across teammates.
+- [session-handoff](https://github.com/alapha888/session-handoff-kit) - Structured end-of-session handoff skill: snapshots verified state, decisions, and discarded approaches into a one-page artifact so a fresh session starts from documented state. Works across Claude Code, Cursor, and Codex.
 - [Taisly Agent Kit](https://github.com/taisly/agent) - Publish approved short-form videos from Codex with a bundled skill, CLI, and remote MCP server for TikTok, Instagram Reels, YouTube Shorts, X, and Facebook.
 
 ### Communication & Writing
