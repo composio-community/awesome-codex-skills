@@ -148,6 +148,7 @@ Codex skills are modular instruction bundles that tell Codex how to execute a ta
 - [brand-guidelines/](./brand-guidelines/) - Apply OpenAI/Codex brand colors and typography to artifacts.
 - [agent-deep-links/](./agent-deep-links/) - Build and validate deep links for Codex, Cursor, and VS Code with Slack-safe formatting and fallback guidance.
 - [canvas-design/](./canvas-design/) - Generate structured canvas layouts and design artifacts.
+- [cliphouse](https://github.com/sunmer/cliphouse) - External repo: Discover motion graphics templates for launches, changelogs and updates inside your coding agent. Preview them in a grid, pick one, and your agent customizes it from your repo.
 - [image-enhancer/](./image-enhancer/) - Upscale and refine images with configurable presets.
 - [slack-gif-creator/](./slack-gif-creator/) - Generate GIFs for Slack with captions and styling.
 - [theme-factory/](./theme-factory/) - Create reusable theme tokens and palettes.
