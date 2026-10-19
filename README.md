@@ -133,6 +133,7 @@ Codex skills are modular instruction bundles that tell Codex how to execute a ta
 
 ### Data & Analysis
 
+- [data-master](https://github.com/MAGA2010/data-master) - Turn raw CSV, Excel, JSON, Parquet, and SQLite data into auditable reports with reproducible cleaning, unit-aware statistics, sensitivity checks, and machine-verifiable evidence.
 - [spreadsheet-formula-helper/](./spreadsheet-formula-helper/) - Write and debug spreadsheet formulas, pivots, and array formulas.
 - [competitive-ads-extractor/](./competitive-ads-extractor/) - Analyze competitor ads and extract structured insights.
 - [datadog-logs/](./datadog-logs/) - Filter Datadog logs from the shell via the Composio CLI, with JSON-friendly output and digest workflows.
