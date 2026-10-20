@@ -149,6 +149,7 @@ Codex skills are modular instruction bundles that tell Codex how to execute a ta
 - [agent-deep-links/](./agent-deep-links/) - Build and validate deep links for Codex, Cursor, and VS Code with Slack-safe formatting and fallback guidance.
 - [canvas-design/](./canvas-design/) - Generate structured canvas layouts and design artifacts.
 - [image-enhancer/](./image-enhancer/) - Upscale and refine images with configurable presets.
+- [logo-to-stickers](https://github.com/huyanxius/logo-to-stickers) - Turn a brand mark into consistent paper-sticker characters, with 15 real examples and exact prompts; requires reference-image input and transparent output from an image-generation tool.
 - [slack-gif-creator/](./slack-gif-creator/) - Generate GIFs for Slack with captions and styling.
 - [theme-factory/](./theme-factory/) - Create reusable theme tokens and palettes.
 - [video-downloader/](./video-downloader/) - Download and prepare videos for offline review.
