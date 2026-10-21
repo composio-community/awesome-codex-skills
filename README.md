@@ -99,6 +99,8 @@ Codex skills are modular instruction bundles that tell Codex how to execute a ta
 - [AuraKit](https://github.com/smorky850612/Aurakit) - All-in-one skill framework: 46 modes, 23 sub-agents, 6-layer OWASP security, 10 lifecycle hooks, ~55% token savings. Install: `npx @smorky85/aurakit`
 - [Vibe-Skills](https://github.com/foryourhealth111-pixel/Vibe-Skills) - Governed Codex skill harness for staged, test-driven work: routes 340+ skills through requirement freeze, plan approval, execution, verification evidence, and cross-session memory.
 - [polywave](https://github.com/blackwell-systems/polywave-codex) - Parallel agent coordination with structural merge safety. Scout decomposes, Wave agents implement in isolated worktrees with disjoint file ownership. Same protocol on Claude Code and Codex.
+- [agent-cleanup](https://github.com/luchasarie/agent-cleanup) - Skill and Python CLI that frees disk space coding agents leave behind: merged git worktrees, stale branches, node_modules, package caches and session logs, including Codex worktrees and sessions under `$CODEX_HOME`. Asks before deleting.
+- [guided-goal](https://github.com/luchasarie/guided-goal) - Interviews you and turns rough intent into a completion contract (objective, success criteria, verification, boundaries, stop conditions) before Codex starts.
 
 ### Productivity & Collaboration
 
@@ -130,6 +132,7 @@ Codex skills are modular instruction bundles that tell Codex how to execute a ta
 - [novel-writing](https://github.com/wgwtest/novel-writing) - External repo: public Codex skill for fiction planning, chapter drafting, scene continuation, and revision.
 - [tailored-resume-generator/](./tailored-resume-generator/) - Tailor resumes to job descriptions with quantified impact.
 - [unslop](https://github.com/MohamedAbdallah-14/unslop) - External repo: CLI and MCP server that removes AI writing patterns from text: tricolons, em-dash overuse, hedging stacks, and sycophancy openers. Works with Codex, Claude Code, Gemini CLI, and Cursor. Five intensity levels and a lint-only audit mode.
+- [bro](https://github.com/luchasarie/bro-skill) - Re-explains the assistant's last reply (or pasted text) in plain language when it was too dense.
 
 ### Data & Analysis
 
@@ -155,6 +158,7 @@ Codex skills are modular instruction bundles that tell Codex how to execute a ta
 - [template-skill/](./template-skill/) - Starter template for building new skills.
 - [skill-installer/](./skill-installer/) - Helper scripts to install skills from curated lists or GitHub paths.
 - [skill-creator/](./skill-creator/) - Guidance for building effective Codex skills with progressive disclosure.
+- [feedback-loop](https://github.com/luchasarie/feedback-loop) - Turns frustration with an agent into an evidence-backed, approval-gated improvement plan (scoped `AGENTS.md`, skills, docs) instead of silent self-edits.
 
 ## Using Skills in Codex
 
