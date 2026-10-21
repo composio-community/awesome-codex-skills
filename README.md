@@ -142,6 +142,7 @@ Codex skills are modular instruction bundles that tell Codex how to execute a ta
 - [raffle-winner-picker/](./raffle-winner-picker/) - Randomly select winners with audit-friendly logs.
 - [langsmith-fetch/](./langsmith-fetch/) - Pull LangSmith project/test data for analysis.
 - [helium-mcp/](./helium-mcp/) - Search real-time news with bias scoring, get live market data, ML options pricing, and balanced news synthesis via MCP.
+- [Sell to State](https://github.com/getbeton/selltostate-skills) - Find government tenders that accept bids, profile public buyers and see competitor contract wins from official procurement data in 60+ countries (needs a Sell to State API key).
 
 ### Meta & Utilities
 
