@@ -104,6 +104,7 @@ Codex skills are modular instruction bundles that tell Codex how to execute a ta
 
 - [connect/](./connect/) - Connect Codex to 1000+ apps via the Composio CLI for real actions (Slack, GitHub, Notion, etc.).
 - [connect-apps/](./connect-apps/) - Wire up Composio CLI connections for Claude and kick off app workflows from the shell.
+- [evidence-learning](https://github.com/tangyixiao/evidence-learning) - Adaptive tutoring, study planning, and progress tracking grounded in learner responses, independent work, delayed retention, and transfer tasks. Includes Chinese-language guidance, references, and reusable learning records.
 - [issue-triage/](./issue-triage/) - Triage Linear or Jira backlogs and run bug sweeps from the terminal.
 - [linear/](./linear/) - Manage issues, projects, and team workflows in Linear.
 - [meeting-insights-analyzer/](./meeting-insights-analyzer/) - Analyze meeting transcripts for themes, risks, and follow-ups.
@@ -114,6 +115,7 @@ Codex skills are modular instruction bundles that tell Codex how to execute a ta
 - [notion-meeting-intelligence/](./notion-meeting-intelligence/) - Prepare meeting materials with Notion context plus Codex research.
 - [notion-research-documentation/](./notion-research-documentation/) - Synthesize multiple Notion sources into briefs, comparisons, or reports with citations.
 - [notion-spec-to-implementation/](./notion-spec-to-implementation/) - Turn Notion specs into implementation plans, tasks, and progress tracking.
+- [oi-coach](https://github.com/tangyixiao/oi-coach) - Chinese-language OI, CSP, and NOIP coaching with adaptive algorithm lessons, tiered hints, C++ code review, contest retrospectives, and evidence-based progress records.
 - [support-ticket-triage/](./support-ticket-triage/) - Triage customer support tickets with categories, priority, next actions, and draft replies.
 - [file-organizer/](./file-organizer/) - Organize, rename, and tidy files to keep workspaces clean.
 - [paperjsx/](./paperjsx/) - Generate PPTX presentations, DOCX documents, XLSX spreadsheets, and PDF invoices/reports/charts from structured JSON. Runs locally via `@paperjsx/mcp-server` — no API key, no network calls.
@@ -125,6 +127,7 @@ Codex skills are modular instruction bundles that tell Codex how to execute a ta
 
 - [email-draft-polish/](./email-draft-polish/) - Draft, rewrite, or condense emails for the right tone and audience.
 - [changelog-generator/](./changelog-generator/) - Create clear changelogs from commits or summaries.
+- [clear-human-writing](https://github.com/tangyixiao/clear-human-writing) - Edit Chinese and English prose to remove formulaic AI phrasing, unnecessary defensive framing, and verbosity while preserving facts, evidence strength, technical conditions, and the author's voice.
 - [content-research-writer/](./content-research-writer/) - Research and draft content with sourced citations.
 - [diasporic-intelligence](https://github.com/MinistaJazz/diasporic-intelligence) - External repo: source-credit skill for consent-governed lineage AI with attribution, provenance, revocation, and non-impersonation boundaries.
 - [novel-writing](https://github.com/wgwtest/novel-writing) - External repo: public Codex skill for fiction planning, chapter drafting, scene continuation, and revision.
