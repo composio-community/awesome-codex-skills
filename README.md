@@ -130,6 +130,7 @@ Codex skills are modular instruction bundles that tell Codex how to execute a ta
 - [novel-writing](https://github.com/wgwtest/novel-writing) - External repo: public Codex skill for fiction planning, chapter drafting, scene continuation, and revision.
 - [tailored-resume-generator/](./tailored-resume-generator/) - Tailor resumes to job descriptions with quantified impact.
 - [unslop](https://github.com/MohamedAbdallah-14/unslop) - External repo: CLI and MCP server that removes AI writing patterns from text: tricolons, em-dash overuse, hedging stacks, and sycophancy openers. Works with Codex, Claude Code, Gemini CLI, and Cursor. Five intensity levels and a lint-only audit mode.
+- [write-natural](https://github.com/sinadwm1/write-natural) - External repo: Persian and English writing skill for evidence-preserving revision, anti-slop editing and genre-specific drafting, with optional offline diagnostics. Author submission.
 
 ### Data & Analysis
 
@@ -220,3 +221,4 @@ PRs welcome. Add real, reusable skills, keep descriptions precise, and include a
     <img src="https://img.shields.io/badge/Get_Started_Free-4F46E5?style=for-the-badge" alt="Get Started"/>
   </a>
 </p>
+
