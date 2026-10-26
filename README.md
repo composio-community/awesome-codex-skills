@@ -90,6 +90,7 @@ Codex skills are modular instruction bundles that tell Codex how to execute a ta
 - [create-plan/](./create-plan/) - Quickly draft concise execution plans for coding tasks.
 - [deploy-pipeline/](./deploy-pipeline/) - End-to-end Stripe → Supabase → Vercel release pipelines with verify and rollback.
 - [Emdash Skills](https://github.com/megabytespace/claude-skills) - 14-category autonomous product-building OS: CF Workers + Hono + Angular + D1 + Stripe. One-line prompts to deployed SaaS with 94 reference docs, 18 agents, and Codex-native `.agents/skills/` support.
+- [game-re-skills](https://github.com/juzorei/game-re-skills) - Game reverse-engineering skills (pointer chains, AOB signatures, Unreal/Unity offsets, memory readers, patch recovery) plus sigtool, a CLI that verifies signatures across game builds. Install: `npx skills add juzorei/game-re-skills`
 - [gh-address-comments/](./gh-address-comments/) - Address review or issue comments on the open GitHub PR for the current branch using `gh`.
 - [gh-fix-ci/](./gh-fix-ci/) - Inspect failing GitHub Actions checks, summarize failures, and propose fixes.
 - [mcp-builder/](./mcp-builder/) - Build and evaluate MCP servers with best practices and an evaluation harness.
