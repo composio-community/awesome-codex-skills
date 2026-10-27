@@ -142,6 +142,7 @@ Codex skills are modular instruction bundles that tell Codex how to execute a ta
 - [raffle-winner-picker/](./raffle-winner-picker/) - Randomly select winners with audit-friendly logs.
 - [langsmith-fetch/](./langsmith-fetch/) - Pull LangSmith project/test data for analysis.
 - [helium-mcp/](./helium-mcp/) - Search real-time news with bias scoring, get live market data, ML options pricing, and balanced news synthesis via MCP.
+- [sports-video-coach](https://github.com/mariusDing/sports-video-coach) - External repo: agent-first film review for your own sports video. The agent reviews contact sheets, the CLI cuts clips and renders a coaching page with narration and an explained video. Any sport via plugins. Install: `npx skills add mariusDing/sports-video-coach` (CLI: `uv tool install git+https://github.com/mariusDing/sports-video-coach@ac27030efdd1c7008e3174650ff16f81f7c41187`, then `sports-video-coach demo`)
 
 ### Meta & Utilities
 
