@@ -142,6 +142,7 @@ Codex skills are modular instruction bundles that tell Codex how to execute a ta
 - [raffle-winner-picker/](./raffle-winner-picker/) - Randomly select winners with audit-friendly logs.
 - [langsmith-fetch/](./langsmith-fetch/) - Pull LangSmith project/test data for analysis.
 - [helium-mcp/](./helium-mcp/) - Search real-time news with bias scoring, get live market data, ML options pricing, and balanced news synthesis via MCP.
+- [superpowers](https://github.com/pqgventures/superpowers-mcp/tree/main/skills/superpowers) - External repo: gives Codex pay-per-call tools on one balance (web search and page reading, work emails, company and CNPJ records, social profiles, images, video, voice) over MCP, or REST with a key. Failed calls are free.
 
 ### Meta & Utilities
 
