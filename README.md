@@ -92,6 +92,9 @@ Codex skills are modular instruction bundles that tell Codex how to execute a ta
 - [Emdash Skills](https://github.com/megabytespace/claude-skills) - 14-category autonomous product-building OS: CF Workers + Hono + Angular + D1 + Stripe. One-line prompts to deployed SaaS with 94 reference docs, 18 agents, and Codex-native `.agents/skills/` support.
 - [gh-address-comments/](./gh-address-comments/) - Address review or issue comments on the open GitHub PR for the current branch using `gh`.
 - [gh-fix-ci/](./gh-fix-ci/) - Inspect failing GitHub Actions checks, summarize failures, and propose fixes.
+- [migsentry](https://github.com/juzorei/migsentry) - Database migration safety review: flags locking/rewriting/app-breaking DDL (drops, renames, SET NOT NULL, type changes, plain CREATE INDEX) with engine-specific explanations and expand/contract fixes; exit 1 on danger for CI gates. Install: `npx skills add juzorei/migsentry` / `pip install migsentry`
+- [flakehunt](https://github.com/juzorei/flakehunt) - Flaky test hunting: confirms flakes with rerun hammers and seed hunts before anyone fixes them, with honest FLAKY/BROKEN/STABLE verdicts as distinct exit codes. Install: `npx skills add juzorei/flakehunt` / `pip install flakehunt`
+- [skilldoctor](https://github.com/juzorei/skilldoctor) - Agent skill hygiene: audits skill installations for broken SKILL.md files and duplicates shadowing each other across agent directories. Install: `npx skills add juzorei/skilldoctor` / `pip install skilldoctor`
 - [mcp-builder/](./mcp-builder/) - Build and evaluate MCP servers with best practices and an evaluation harness.
 - [pr-review-ci-fix/](./pr-review-ci-fix/) - Automated GitHub/GitLab PR review plus CI auto-fix loop via the Composio CLI.
 - [sentry-triage/](./sentry-triage/) - Diagnose Sentry issues by mapping stack frames to local source — no copy-paste.
