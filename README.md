@@ -119,6 +119,7 @@ Codex skills are modular instruction bundles that tell Codex how to execute a ta
 - [paperjsx/](./paperjsx/) - Generate PPTX presentations, DOCX documents, XLSX spreadsheets, and PDF invoices/reports/charts from structured JSON. Runs locally via `@paperjsx/mcp-server` — no API key, no network calls.
 - [skill-share/](./skill-share/) - Share skills and reusable instructions across teammates.
 - [Taisly Agent Kit](https://github.com/taisly/agent) - Publish approved short-form videos from Codex with a bundled skill, CLI, and remote MCP server for TikTok, Instagram Reels, YouTube Shorts, X, and Facebook.
+- [keepmacawake](https://github.com/bartdudzic/keepmacawake/tree/main/plugins/keep-mac-awake/skills/keepmacawake) - External repo: keeps a MacBook awake with the lid closed while Codex runs a long task, by starting a timed session of the Keep Mac Awake app through its `keepmacawake` command and stopping it when the task ends; asks before a session with no time limit, battery use, installing or buying (the app is paid after a 3-day trial). Install: `python3 ~/.codex/skills/.system/skill-installer/scripts/install-skill-from-github.py --repo bartdudzic/keepmacawake --path plugins/keep-mac-awake/skills/keepmacawake --name keepmacawake`
 
 ### Communication & Writing
 - [codex-sms-verification](https://github.com/virtualsms-io/codex-sms-verification) - External repo: real-SIM SMS verification for AI agents via VirtualSMS MCP. 145+ countries, 2000+ services, both hosted (mcp.virtualsms.io) and local stdio transports.
