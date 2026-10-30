@@ -98,6 +98,7 @@ Codex skills are modular instruction bundles that tell Codex how to execute a ta
 - [webapp-testing/](./webapp-testing/) - Run targeted web app tests and summarize results.
 - [AuraKit](https://github.com/smorky850612/Aurakit) - All-in-one skill framework: 46 modes, 23 sub-agents, 6-layer OWASP security, 10 lifecycle hooks, ~55% token savings. Install: `npx @smorky85/aurakit`
 - [Vibe-Skills](https://github.com/foryourhealth111-pixel/Vibe-Skills) - Governed Codex skill harness for staged, test-driven work: routes 340+ skills through requirement freeze, plan approval, execution, verification evidence, and cross-session memory.
+- [vicem](https://github.com/RAKKUNN/vicem/tree/main/.agents/skills/vicem) - Zero-dependency context baton and AST code skeletonizer that compacts sessions by 80–99% (with lossless on-demand MCP rehydration via `vicem_rehydrate`) and relays work between Codex CLI, Claude Code, Cursor, Gemini CLI, and Web AI. Install: `npx skills add RAKKUNN/vicem -g`
 - [polywave](https://github.com/blackwell-systems/polywave-codex) - Parallel agent coordination with structural merge safety. Scout decomposes, Wave agents implement in isolated worktrees with disjoint file ownership. Same protocol on Claude Code and Codex.
 
 ### Productivity & Collaboration
