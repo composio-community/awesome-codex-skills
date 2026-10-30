@@ -92,6 +92,9 @@ Codex skills are modular instruction bundles that tell Codex how to execute a ta
 - [Emdash Skills](https://github.com/megabytespace/claude-skills) - 14-category autonomous product-building OS: CF Workers + Hono + Angular + D1 + Stripe. One-line prompts to deployed SaaS with 94 reference docs, 18 agents, and Codex-native `.agents/skills/` support.
 - [gh-address-comments/](./gh-address-comments/) - Address review or issue comments on the open GitHub PR for the current branch using `gh`.
 - [gh-fix-ci/](./gh-fix-ci/) - Inspect failing GitHub Actions checks, summarize failures, and propose fixes.
+- [loglens](https://github.com/juzorei/loglens) - Log triage for agents: clusters a 500 MB log into error templates with counts, line ranges and incident spikes (streaming, stdlib). Install: `npx skills add juzorei/loglens` / `pip install loglens`
+- [hookbench](https://github.com/juzorei/hookbench) - Webhook integration testing: capture webhooks as fixtures, verify HMAC signatures (raw + timestamped schemes, replay tolerance), replay at your handler while developing. Install: `npx skills add juzorei/hookbench` / `pip install hookbench`
+- [bumpmap](https://github.com/juzorei/bumpmap) - Dependency upgrades: risk-classified plans (major/minor/unpinned) with changelog links, plus the skill that lands breaking majors (changelog, codemod, tests, bisect). Install: `npx skills add juzorei/bumpmap` / `pip install bumpmap`
 - [mcp-builder/](./mcp-builder/) - Build and evaluate MCP servers with best practices and an evaluation harness.
 - [pr-review-ci-fix/](./pr-review-ci-fix/) - Automated GitHub/GitLab PR review plus CI auto-fix loop via the Composio CLI.
 - [sentry-triage/](./sentry-triage/) - Diagnose Sentry issues by mapping stack frames to local source — no copy-paste.
