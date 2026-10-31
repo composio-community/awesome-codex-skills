@@ -135,6 +135,7 @@ Codex skills are modular instruction bundles that tell Codex how to execute a ta
 
 - [spreadsheet-formula-helper/](./spreadsheet-formula-helper/) - Write and debug spreadsheet formulas, pivots, and array formulas.
 - [competitive-ads-extractor/](./competitive-ads-extractor/) - Analyze competitor ads and extract structured insights.
+- [nabit-video-recommendation](https://github.com/Crimson-Pass/nabit-codex-plugin) - External repo: 6 modular Codex skills (`video-recommendation`, `products`, `research`, `library`, `setup`, `settings`) + remote OAuth 2.1 MCP server (`https://nabit.ai/mcp`) for matching products to human-reviewed 0-3s short-form video hooks, frame-level opening breakdowns, trend tracking, and creative collections. Install: `python3 ~/.codex/skills/.system/skill-installer/scripts/install-skill-from-github.py --repo Crimson-Pass/nabit-codex-plugin --path nabit-video-recommendation/skills/video-recommendation --name video-recommendation`
 - [datadog-logs/](./datadog-logs/) - Filter Datadog logs from the shell via the Composio CLI, with JSON-friendly output and digest workflows.
 - [developer-growth-analysis/](./developer-growth-analysis/) - Analyze Codex chat history for coding patterns and learning gaps.
 - [lead-research-assistant/](./lead-research-assistant/) - Research leads and enrich records with firmographic data.
