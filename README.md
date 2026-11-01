@@ -138,6 +138,7 @@ Codex skills are modular instruction bundles that tell Codex how to execute a ta
 - [datadog-logs/](./datadog-logs/) - Filter Datadog logs from the shell via the Composio CLI, with JSON-friendly output and digest workflows.
 - [developer-growth-analysis/](./developer-growth-analysis/) - Analyze Codex chat history for coding patterns and learning gaps.
 - [lead-research-assistant/](./lead-research-assistant/) - Research leads and enrich records with firmographic data.
+- [mach-gtm-mcp](https://github.com/verma6uc/mach-gtm-mcp) - External repo: B2B outbound sales MCP server — build ICPs, research prospects with verified signals, score leads (0-100), draft personalised cold email/LinkedIn using the 1-3-1 framework, and build multi-touch sequences. Install: `npx mach-gtm-mcp`. Platform: [Mach GTM](https://machgtm.com)
 - [domain-name-brainstormer/](./domain-name-brainstormer/) - Brainstorm available domain names with criteria and checks.
 - [raffle-winner-picker/](./raffle-winner-picker/) - Randomly select winners with audit-friendly logs.
 - [langsmith-fetch/](./langsmith-fetch/) - Pull LangSmith project/test data for analysis.
