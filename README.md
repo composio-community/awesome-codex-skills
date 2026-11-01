@@ -89,6 +89,7 @@ Codex skills are modular instruction bundles that tell Codex how to execute a ta
 - [codebase-recon](https://github.com/yujiachen-y/codebase-recon-skill) - Analyze git history to understand a codebase before reading any code — surfaces hotspots, bug magnets, bus factor, momentum, and high-risk files (hotspot ∩ bug-magnet) via auto-scaled analysis. Install: `python3 ~/.codex/skills/.system/skill-installer/scripts/install-skill-from-github.py --repo yujiachen-y/codebase-recon-skill --path skills/codebase-recon --name codebase-recon`
 - [create-plan/](./create-plan/) - Quickly draft concise execution plans for coding tasks.
 - [deploy-pipeline/](./deploy-pipeline/) - End-to-end Stripe → Supabase → Vercel release pipelines with verify and rollback.
+- [DESIGN:OS Bridge](https://github.com/jangtrinh/design-os-figma-plugin/tree/main/skills/design-os-figma-agent) - Let Codex read and edit the design file you have open (works with Figma) through a local WebSocket bridge, with one undo step per change. Free, source-available (PolyForm Shield).
 - [Emdash Skills](https://github.com/megabytespace/claude-skills) - 14-category autonomous product-building OS: CF Workers + Hono + Angular + D1 + Stripe. One-line prompts to deployed SaaS with 94 reference docs, 18 agents, and Codex-native `.agents/skills/` support.
 - [gh-address-comments/](./gh-address-comments/) - Address review or issue comments on the open GitHub PR for the current branch using `gh`.
 - [gh-fix-ci/](./gh-fix-ci/) - Inspect failing GitHub Actions checks, summarize failures, and propose fixes.
