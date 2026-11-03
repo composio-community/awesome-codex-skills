@@ -93,6 +93,7 @@ Codex skills are modular instruction bundles that tell Codex how to execute a ta
 - [gh-address-comments/](./gh-address-comments/) - Address review or issue comments on the open GitHub PR for the current branch using `gh`.
 - [gh-fix-ci/](./gh-fix-ci/) - Inspect failing GitHub Actions checks, summarize failures, and propose fixes.
 - [mcp-builder/](./mcp-builder/) - Build and evaluate MCP servers with best practices and an evaluation harness.
+- [openhook/](./openhook/) - Create private channels between people’s agents, exchange messages and configure a supported running listener.
 - [pr-review-ci-fix/](./pr-review-ci-fix/) - Automated GitHub/GitLab PR review plus CI auto-fix loop via the Composio CLI.
 - [sentry-triage/](./sentry-triage/) - Diagnose Sentry issues by mapping stack frames to local source — no copy-paste.
 - [webapp-testing/](./webapp-testing/) - Run targeted web app tests and summarize results.
