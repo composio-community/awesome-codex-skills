@@ -93,6 +93,7 @@ Codex skills are modular instruction bundles that tell Codex how to execute a ta
 - [gh-address-comments/](./gh-address-comments/) - Address review or issue comments on the open GitHub PR for the current branch using `gh`.
 - [gh-fix-ci/](./gh-fix-ci/) - Inspect failing GitHub Actions checks, summarize failures, and propose fixes.
 - [mcp-builder/](./mcp-builder/) - Build and evaluate MCP servers with best practices and an evaluation harness.
+- [PLASTO Game Studio](https://github.com/plastoorg/PLASTO-Game-Studio) - Game-development skill for Codex and ChatGPT with 74 command routes, selective workflow loading, 49 specialist roles, conflict-aware installation, and explicit QA evidence. Install: `npx skills add plastoorg/PLASTO-Game-Studio --skill game-studio --agent codex`
 - [pr-review-ci-fix/](./pr-review-ci-fix/) - Automated GitHub/GitLab PR review plus CI auto-fix loop via the Composio CLI.
 - [sentry-triage/](./sentry-triage/) - Diagnose Sentry issues by mapping stack frames to local source — no copy-paste.
 - [webapp-testing/](./webapp-testing/) - Run targeted web app tests and summarize results.
