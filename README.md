@@ -142,6 +142,7 @@ Codex skills are modular instruction bundles that tell Codex how to execute a ta
 - [raffle-winner-picker/](./raffle-winner-picker/) - Randomly select winners with audit-friendly logs.
 - [langsmith-fetch/](./langsmith-fetch/) - Pull LangSmith project/test data for analysis.
 - [helium-mcp/](./helium-mcp/) - Search real-time news with bias scoring, get live market data, ML options pricing, and balanced news synthesis via MCP.
+- [oumi-weights-lab](https://github.com/oumi-ai/weights-lab) - Load an open-weights LLM once, then ablate, edit, or swap its weights and measure the effect on its answers, with exact undo. Install: `codex plugin marketplace add oumi-ai/weights-lab`, `codex plugin add oumi-weights-lab@oumi-weights-lab`, and `uv tool install git+https://github.com/oumi-ai/weights-lab`
 
 ### Meta & Utilities
 
