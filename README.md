@@ -104,6 +104,7 @@ Codex skills are modular instruction bundles that tell Codex how to execute a ta
 
 - [connect/](./connect/) - Connect Codex to 1000+ apps via the Composio CLI for real actions (Slack, GitHub, Notion, etc.).
 - [connect-apps/](./connect-apps/) - Wire up Composio CLI connections for Claude and kick off app workflows from the shell.
+- [im-a-pm](https://github.com/danilojpferreira/im-a-pm) - Maps a codebase as business flows for product managers: every entrypoint becomes a flowchart of business decisions, kept in sync with the code, with behavioral diffs per branch. Install: `npx skills add danilojpferreira/im-a-pm`
 - [issue-triage/](./issue-triage/) - Triage Linear or Jira backlogs and run bug sweeps from the terminal.
 - [linear/](./linear/) - Manage issues, projects, and team workflows in Linear.
 - [meeting-insights-analyzer/](./meeting-insights-analyzer/) - Analyze meeting transcripts for themes, risks, and follow-ups.
