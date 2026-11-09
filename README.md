@@ -119,6 +119,7 @@ Codex skills are modular instruction bundles that tell Codex how to execute a ta
 - [paperjsx/](./paperjsx/) - Generate PPTX presentations, DOCX documents, XLSX spreadsheets, and PDF invoices/reports/charts from structured JSON. Runs locally via `@paperjsx/mcp-server` — no API key, no network calls.
 - [skill-share/](./skill-share/) - Share skills and reusable instructions across teammates.
 - [Taisly Agent Kit](https://github.com/taisly/agent) - Publish approved short-form videos from Codex with a bundled skill, CLI, and remote MCP server for TikTok, Instagram Reels, YouTube Shorts, X, and Facebook.
+- [Recommerce](https://github.com/budna-marketplace/recommerce) - Six skills for new and pre-owned purchases: use when finding and comparing listings, assembling a complete kit within one budget, inspecting a listing before a viewing, planning collection and transport, deciding keep vs. repair vs. replace, or rechecking a shortlist before committing. Install: `python3 ~/.codex/skills/.system/skill-installer/scripts/install-skill-from-github.py --repo budna-marketplace/recommerce --path skills/recommerce-buy skills/recommerce-kits skills/recommerce-inspect skills/recommerce-collect skills/recommerce-keep skills/recommerce-second-look`
 
 ### Communication & Writing
 - [codex-sms-verification](https://github.com/virtualsms-io/codex-sms-verification) - External repo: real-SIM SMS verification for AI agents via VirtualSMS MCP. 145+ countries, 2000+ services, both hosted (mcp.virtualsms.io) and local stdio transports.
