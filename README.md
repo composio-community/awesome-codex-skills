@@ -90,6 +90,7 @@ Codex skills are modular instruction bundles that tell Codex how to execute a ta
 - [create-plan/](./create-plan/) - Quickly draft concise execution plans for coding tasks.
 - [deploy-pipeline/](./deploy-pipeline/) - End-to-end Stripe → Supabase → Vercel release pipelines with verify and rollback.
 - [Emdash Skills](https://github.com/megabytespace/claude-skills) - 14-category autonomous product-building OS: CF Workers + Hono + Angular + D1 + Stripe. One-line prompts to deployed SaaS with 94 reference docs, 18 agents, and Codex-native `.agents/skills/` support.
+- [faber-language](https://github.com/faberlang/faberlang.dev/tree/main/static/.well-known/agent-skills/language) - Write and check Faber, a statically typed language for coding agents and human authors (mechanical grammar, explicit types; compiles to Rust, TypeScript, Go, Swift and more). Experimental through 1.x. Install: `python3 ~/.codex/skills/.system/skill-installer/scripts/install-skill-from-github.py --repo faberlang/faberlang.dev --path static/.well-known/agent-skills/language --name faber-language`
 - [gh-address-comments/](./gh-address-comments/) - Address review or issue comments on the open GitHub PR for the current branch using `gh`.
 - [gh-fix-ci/](./gh-fix-ci/) - Inspect failing GitHub Actions checks, summarize failures, and propose fixes.
 - [mcp-builder/](./mcp-builder/) - Build and evaluate MCP servers with best practices and an evaluation harness.
