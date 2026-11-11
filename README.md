@@ -142,6 +142,7 @@ Codex skills are modular instruction bundles that tell Codex how to execute a ta
 - [raffle-winner-picker/](./raffle-winner-picker/) - Randomly select winners with audit-friendly logs.
 - [langsmith-fetch/](./langsmith-fetch/) - Pull LangSmith project/test data for analysis.
 - [helium-mcp/](./helium-mcp/) - Search real-time news with bias scoring, get live market data, ML options pricing, and balanced news synthesis via MCP.
+- [molecule-design-loop](https://github.com/wangze1998/molecule-design-loop) - Design small molecules and polymers against a written spec: literature grounding, RDKit filtering, visual review, human approval before xTB.
 
 ### Meta & Utilities
 
