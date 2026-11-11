@@ -31,8 +31,11 @@
 
 A curated list of practical Codex skills for automating workflows across the Codex CLI and API.
 
+## Give your skills real-world actions
 
-> **Want skills that do more than generate text?** Codex can send emails, create issues, post to Slack, and take actions across 1000+ apps. [See how →](./connect/)
+Skills tell your agent **how** to work. An MCP Gateway gives it secure access to the tools it needs.
+
+Composio [MCP Gateway](https://composio.dev/mcp-gateway) provides a single MCP endpoint for 1,000+ integrations with built-in authentication, team-based access controls, audit logs, and production-ready reliability.
 
 ---
 
@@ -115,7 +118,8 @@ Codex skills are modular instruction bundles that tell Codex how to execute a ta
 - [file-organizer/](./file-organizer/) - Organize, rename, and tidy files to keep workspaces clean.
 - [paperjsx/](./paperjsx/) - Generate PPTX presentations, DOCX documents, XLSX spreadsheets, and PDF invoices/reports/charts from structured JSON. Runs locally via `@paperjsx/mcp-server` — no API key, no network calls.
 - [skill-share/](./skill-share/) - Share skills and reusable instructions across teammates.
-- [COMPASS Skills](https://github.com/dongshuyan/compass-skills) - Local-first task clarification, repo-local task forests, and user-profile context for long-running Codex work. Install: `npx skills add dongshuyan/compass-skills --skill '*' -a codex`
+- [Taisly Agent Kit](https://github.com/taisly/agent) - Publish approved short-form videos from Codex with a bundled skill, CLI, and remote MCP server for TikTok, Instagram Reels, YouTube Shorts, X, and Facebook.
+- [COMPASS Skills](https://github.com/dongshuyan/compass-skills) - Local-first skills for task alignment, task forests, pause/resume, handoff, user-aware collaboration, and skill engineering. Install: `npx skills add dongshuyan/compass-skills --skill '*' -a codex`
 
 ### Communication & Writing
 - [codex-sms-verification](https://github.com/virtualsms-io/codex-sms-verification) - External repo: real-SIM SMS verification for AI agents via VirtualSMS MCP. 145+ countries, 2000+ services, both hosted (mcp.virtualsms.io) and local stdio transports.
