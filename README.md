@@ -208,6 +208,7 @@ PRs welcome. Add real, reusable skills, keep descriptions precise, and include a
 ## Resources
 
 - [Top Codex Skills](https://composio.dev/content/top-codex-skills)
+- [HOL Plugins](https://hol.org/plugins) - Discover Codex skills and plugins in a public catalog ranked by trust score, with scanner-backed security signals
 
 ---
 
