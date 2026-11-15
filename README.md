@@ -143,6 +143,34 @@ Codex skills are modular instruction bundles that tell Codex how to execute a ta
 - [langsmith-fetch/](./langsmith-fetch/) - Pull LangSmith project/test data for analysis.
 - [helium-mcp/](./helium-mcp/) - Search real-time news with bias scoring, get live market data, ML options pricing, and balanced news synthesis via MCP.
 
+### GoVisit Travel & Places Skills
+
+These Codex-compatible Agent Skills use GoVisit’s read-only travel catalog API. Each folder includes its skill instructions, MIT license, and published API contract.
+
+- [govisit-get-category-overview/](./govisit-get-category-overview/) - Read the published overview for the selected destination category page.
+- [govisit-get-category-section/](./govisit-get-category-section/) - Read one published section for the selected destination category page.
+- [govisit-get-collection-overview/](./govisit-get-collection-overview/) - Read the published overview for the selected destination collection page.
+- [govisit-get-collection-section/](./govisit-get-collection-section/) - Read one published section for the selected destination collection page.
+- [govisit-get-destination-overview/](./govisit-get-destination-overview/) - Read the published overview fields for the selected destination.
+- [govisit-get-destination-section/](./govisit-get-destination-section/) - Read one published section of the selected destination.
+- [govisit-get-documentation-page/](./govisit-get-documentation-page/) - Read bounded structured content from the selected published article.
+- [govisit-get-page-faq/](./govisit-get-page-faq/) - Read the published questions and answers on the selected blog or documentation article.
+- [govisit-get-place-overview/](./govisit-get-place-overview/) - Read the published overview fields for the selected place.
+- [govisit-get-place-section/](./govisit-get-place-section/) - Read one published section of the selected place, including spatial details when requested.
+- [govisit-get-place-visit-facts/](./govisit-get-place-visit-facts/) - Read compact, normalized visit facts for the selected place.
+- [govisit-get-statistics/](./govisit-get-statistics/) - Use when an agent needs exact GoVisit catalog coverage counts for the physical World or a selected Destination, with observation dates and provenance.
+- [govisit-list-category-places/](./govisit-list-category-places/) - Filter the published place cards shown on the selected destination category page.
+- [govisit-list-collection-places/](./govisit-list-collection-places/) - Filter the published place cards shown on the selected destination collection page.
+- [govisit-list-destination-activities/](./govisit-list-destination-activities/) - Read the bounded published activities shown on the destination page.
+- [govisit-list-destination-categories/](./govisit-list-destination-categories/) - Read the published category projection shown on the destination page.
+- [govisit-list-destination-highlights/](./govisit-list-destination-highlights/) - Read the bounded published highlights shown on the destination page.
+- [govisit-list-destination-places/](./govisit-list-destination-places/) - Filter the published place cards already present on the destination page.
+- [govisit-list-related-places/](./govisit-list-related-places/) - Find bounded, page-local related place cards using optional published-field filters.
+- [govisit-search-destinations/](./govisit-search-destinations/) - Search GoVisit destinations by name or traveler intent and return canonical destination codes and URLs.
+- [govisit-search-documentation/](./govisit-search-documentation/) - Search the published documentation links rendered on the selected documentation index page.
+- [govisit-search-places/](./govisit-search-places/) - Search GoVisit places by name or traveler intent, optionally constrained by country, destination, or proximity.
+
+
 ### Meta & Utilities
 
 - [brand-guidelines/](./brand-guidelines/) - Apply OpenAI/Codex brand colors and typography to artifacts.
