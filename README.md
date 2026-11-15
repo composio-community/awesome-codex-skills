@@ -208,6 +208,7 @@ PRs welcome. Add real, reusable skills, keep descriptions precise, and include a
 ## Resources
 
 - [Top Codex Skills](https://composio.dev/content/top-codex-skills)
+- [No Stairs Please MCP](https://nostairsplease.com/mcp) - Live music venue directory and MCP server for touring bands, event discovery, and venue data.
 
 ---
 
