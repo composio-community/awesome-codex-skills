@@ -142,6 +142,7 @@ Codex skills are modular instruction bundles that tell Codex how to execute a ta
 - [raffle-winner-picker/](./raffle-winner-picker/) - Randomly select winners with audit-friendly logs.
 - [langsmith-fetch/](./langsmith-fetch/) - Pull LangSmith project/test data for analysis.
 - [helium-mcp/](./helium-mcp/) - Search real-time news with bias scoring, get live market data, ML options pricing, and balanced news synthesis via MCP.
+- [aso-skills](https://github.com/ASOScan/aso-skills) - App Store Optimization for iOS and Android apps: 9 MIT-licensed skills for keyword volume and difficulty, daily App Store and Google Play ranks, keyword opportunities, competitor keyword spy, review insights and a listing audit, read from your own apps through ASOScan. aso-fundamentals explains how store search ranking works and needs no account.
 
 ### Meta & Utilities
 
