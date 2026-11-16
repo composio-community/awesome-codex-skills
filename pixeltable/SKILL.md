@@ -17,7 +17,7 @@ license: Apache-2.0
 allowed-tools: []
 metadata:
   author: Pixeltable
-  version: 2.14.0
+  version: 2.14.1
   type: documentation
   executes-code: false
   category: data-infrastructure
@@ -72,6 +72,8 @@ pxt service list                  # assigned port; do not hard-code :8000
 The last argument (`my_app`, or `pxt://org:db` on Cloud) is a catalog directory, not a folder on disk. `pxt init` marks the project root. It also refuses (exit 3) the home directory, a directory above it, or the Pixeltable home (0.7.22+); `pxt db diff` and `pxt db update` refuse such a root too. Local handle: `pxt.get_table('my_app.docs')`, or bind the models: `import app; app.TableModel.bind_all('my_app')`, then `app.Docs.insert(...)` / `app.Docs.select(...).collect()`. Inspect: `pxt ls -l`, `pxt errors my_app/docs`, `pxt dashboard`.
 
 Provider keys (`OPENAI_API_KEY`, ...) come from the environment or `~/.pixeltable/config.toml`, and the `pxt` daemon reads both once, at startup; local services get them from the daemon. After changing either, run `pxt daemon restart` (every command answers 409 until you do), then `pxt service restart my_app/ingest`.
+
+The daemon identity also fingerprints installed package metadata, so after `pip install` / uninstall that changes site-packages the client replaces the daemon without a manual `pxt daemon restart` (still restart after env or `config.toml` edits).
 
 Same file on [Cloud](https://docs.pixeltable.com/howto/deployment/cloud): prefer `--add-config-entry` on `pxt db diff` or `pxt db update` over writing the hosted `[[pixeltable.database]]` entry by hand. The flag appends `name = '<uri>'` (lowercased) unless an entry already matches; a hand edit can put `name` on the local entry. A URI with no matching entry is an error and names `pxt db diff <uri> --add-config-entry`. Then:
 
@@ -161,6 +163,7 @@ Add video, audio, agents, or a UI by editing `app.py`. A view is either a filter
 |-------|---------|
 | `openai.vision(...)` | `vision` is the only deprecated function in `pixeltable.functions`. In `chat_completions`: `{'type': 'image_url', 'image_url': t.image}`. The API form also works: `{'url': t.image}` or `{'url': t.image.fileurl}`; a URL string must be publicly accessible (0.7.22+). In `responses` and `decisions`: `{'type': 'input_image', 'image_url': t.image}`, or a public URL string |
 | `chat_completions(..., temperature=0)` | Extra request parameters go in `model_kwargs={...}`, not as top-level keywords. Anthropic `messages` still requires `max_tokens=` as its own argument |
+| `gemini.generate_videos(...)` | `generate_video` (singular). Video generation uses Omni models, e.g. `generate_video(prompt, model='gemini-omni-1.1-flash')` |
 | `from pixeltable.iterators import ...` | The whole `pixeltable.iterators` package is a deprecated shim (`FrameIterator`, `VideoSplitter`, `DocumentSplitter`, `StringSplitter`, `AudioSplitter`, `TileIterator`). Import the function from `pixeltable.functions.*` -- e.g. `from pixeltable.functions.video import frame_iterator` |
 | `similarity(query)` | `similarity(string=query)`. Also `image=` / `audio=` / `video=` / `document=` / `vector=`; `idx=` picks among several indexes on one column |
 | Re-run with `if_exists='ignore'` to fix logic | App: edit the expression, `pxt schema update`, then `pxt recompute my_app/docs summary -f`: the update keeps the old values. Notebook: `t.alter_computed_column(summary=...)`, which recomputes it and its dependents |
@@ -232,7 +235,7 @@ t.add_computed_column(
 )
 ```
 
-Extra request parameters go in `model_kwargs={...}`, not as keywords on `chat_completions`. OpenAI `decisions` (0.7.22+, `openai>=3.32`) is `decisions(input, questions=[...], model=...)`: `model` is required, and `.answers` is in question order.
+Extra request parameters go in `model_kwargs={...}`, not as keywords on `chat_completions`. OpenAI `decisions` (0.7.22+, `openai>=3.32`) is `decisions(input, questions=[...], model=...)`: `model` is required, and `.answers` is in question order. Gemini video generation uses Omni models via `generate_video` (e.g. `model='gemini-omni-1.1-flash'`).
 
 Views: `document_splitter`, `frame_iterator` (from `pixeltable.functions.video`), `string_splitter`, `audio_splitter`. Notebook indexes: `t.add_embedding_index('content', embedding=embed_fn, if_exists='ignore')`.
 
