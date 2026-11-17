@@ -208,6 +208,7 @@ PRs welcome. Add real, reusable skills, keep descriptions precise, and include a
 ## Resources
 
 - [Top Codex Skills](https://composio.dev/content/top-codex-skills)
+- [SkillMaxx](https://skillmaxx.gilventures.ai/) - Free directory of Codex skills, plugins and MCP servers, install-tested nightly in Codex, Claude Code, Cursor, Grok Build and Pi
 
 ---
 
