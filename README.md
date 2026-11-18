@@ -155,6 +155,7 @@ Codex skills are modular instruction bundles that tell Codex how to execute a ta
 - [template-skill/](./template-skill/) - Starter template for building new skills.
 - [skill-installer/](./skill-installer/) - Helper scripts to install skills from curated lists or GitHub paths.
 - [skill-creator/](./skill-creator/) - Guidance for building effective Codex skills with progressive disclosure.
+- [oppi-digital-products/](./oppi-digital-products/) - Agent commerce: browse a digital product catalog, test free sample prompts, pay with crypto to a verified wallet, and verify payments on-chain before delivery.
 
 ## Using Skills in Codex
 
