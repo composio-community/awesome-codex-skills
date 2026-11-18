@@ -5,7 +5,7 @@ description: Discover, sample, purchase with crypto, and unlock the Oppi digital
 
 # Oppi Digital Products
 
-Detailed description of the skill and what it helps users accomplish.
+A commerce workflow for ready-made freelance and content products: show the catalog, return a real free sample so the user can judge quality, print the correct crypto payment instructions, verify the transfer on-chain, and generate a prefilled delivery request. The skill never signs transactions, holds keys, or asks for a seed phrase; payment is a plain transfer to a published address.
 
 ## When to Use This Skill
 
