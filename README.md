@@ -142,6 +142,7 @@ Codex skills are modular instruction bundles that tell Codex how to execute a ta
 - [raffle-winner-picker/](./raffle-winner-picker/) - Randomly select winners with audit-friendly logs.
 - [langsmith-fetch/](./langsmith-fetch/) - Pull LangSmith project/test data for analysis.
 - [helium-mcp/](./helium-mcp/) - Search real-time news with bias scoring, get live market data, ML options pricing, and balanced news synthesis via MCP.
+- [flashdata](https://github.com/flashdatadev/flashdata-skills/blob/main/skills/flashdata/SKILL.md) - Real-time Google Search SERP, YouTube Data & timestamped transcripts, and cloud-storage YouTube video delivery via CLI or hosted MCP (`https://data.flashdata.dev/mcp`); free trial (no credit card required) & $0/mo pay-as-you-go at [flashdata.dev](https://flashdata.dev/).
 
 ### Meta & Utilities
 
