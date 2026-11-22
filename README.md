@@ -143,6 +143,8 @@ Codex skills are modular instruction bundles that tell Codex how to execute a ta
 - [langsmith-fetch/](./langsmith-fetch/) - Pull LangSmith project/test data for analysis.
 - [helium-mcp/](./helium-mcp/) - Search real-time news with bias scoring, get live market data, ML options pricing, and balanced news synthesis via MCP.
 
+- [Ingredient Audit Skill](https://github.com/pandefen1983/ingredient-audit-skill) - Auditable AI skill for food-label and ingredient verification: Medical Medium (Anthony William) Levels 1-5, strict gluten-free, vegan/vegetarian, and clean-label presets; binds every verdict to exact SKU label evidence and normalizes unit prices. Install: `git clone https://github.com/pandefen1983/ingredient-audit-skill.git ~/.codex/skills/ingredient-audit-skill`
+
 ### Meta & Utilities
 
 - [brand-guidelines/](./brand-guidelines/) - Apply OpenAI/Codex brand colors and typography to artifacts.
