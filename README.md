@@ -99,6 +99,7 @@ Codex skills are modular instruction bundles that tell Codex how to execute a ta
 - [AuraKit](https://github.com/smorky850612/Aurakit) - All-in-one skill framework: 46 modes, 23 sub-agents, 6-layer OWASP security, 10 lifecycle hooks, ~55% token savings. Install: `npx @smorky85/aurakit`
 - [Vibe-Skills](https://github.com/foryourhealth111-pixel/Vibe-Skills) - Governed Codex skill harness for staged, test-driven work: routes 340+ skills through requirement freeze, plan approval, execution, verification evidence, and cross-session memory.
 - [polywave](https://github.com/blackwell-systems/polywave-codex) - Parallel agent coordination with structural merge safety. Scout decomposes, Wave agents implement in isolated worktrees with disjoint file ownership. Same protocol on Claude Code and Codex.
+- [BriefCheck](https://github.com/yulongwu-x/BriefCheck) - Review PRs against GitHub issue acceptance criteria with an Agent Skill, zero-dependency Python 3.10+ CLI (`briefcheck verify` deterministically catches hallucinated diff line numbers, deleted lines cited as new-side, and stale test logs), and Composite GitHub Action. Install: `python3 ~/.codex/skills/.system/skill-installer/scripts/install-skill-from-github.py --repo yulongwu-x/BriefCheck --path .agents/skills/briefcheck --name briefcheck`
 
 ### Productivity & Collaboration
 
