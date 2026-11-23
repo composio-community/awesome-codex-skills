@@ -17,7 +17,7 @@ license: Apache-2.0
 allowed-tools: []
 metadata:
   author: Pixeltable
-  version: 2.14.1
+  version: 2.14.2
   type: documentation
   executes-code: false
   category: data-infrastructure
@@ -155,7 +155,7 @@ RAG, views, and search: [workflows.md](references/workflows.md). Do not add Hugg
 | Serving, FastAPIRouter, routes | [workflows.md](references/workflows.md) |
 | Wrong stack | [anti-patterns.md](references/anti-patterns.md) |
 
-Add video, audio, agents, or a UI by editing `app.py`. A view is either a filter (`base=Docs.where(...)`) or an iterator (`frame_iterator`, `audio_splitter`, `document_splitter`, `video_splitter`, `string_splitter`, `list_iterator`, `tile_iterator`). Check `pixeltable.functions` before writing a UDF. Start from `pxt service example` or `pxt schema example`. Do not invent a second `pxt schema update` path.
+Add video, audio, agents, or a UI by editing `app.py`. A view is either a filter (`base=Docs.where(...)`) or an iterator (`frame_iterator`, `audio_splitter`, `document_splitter`, `video_splitter`, `string_splitter`, `list_iterator`, `tile_iterator`). Check `pixeltable.functions` before writing a UDF (`pxt.list_functions()` or `pxt functions`). `pxt.list_functions('video', kind='iterator')` lists functions, aggregates, and iterators with signatures and the first paragraph of each docstring; filter with a module (`'video'`), `on=pxt.Json`, `search=`, or `kind=` (`udf`, `aggregate`, `iterator`, or `query`). CLI: `pxt functions video`, `pxt functions --on Json`, `pxt functions --search detect` (`--json` emits the records). Start from `pxt service example` or `pxt schema example`. Do not invent a second `pxt schema update` path.
 
 ## API traps
 
@@ -164,12 +164,13 @@ Add video, audio, agents, or a UI by editing `app.py`. A view is either a filter
 | `openai.vision(...)` | `vision` is the only deprecated function in `pixeltable.functions`. In `chat_completions`: `{'type': 'image_url', 'image_url': t.image}`. The API form also works: `{'url': t.image}` or `{'url': t.image.fileurl}`; a URL string must be publicly accessible (0.7.22+). In `responses` and `decisions`: `{'type': 'input_image', 'image_url': t.image}`, or a public URL string |
 | `chat_completions(..., temperature=0)` | Extra request parameters go in `model_kwargs={...}`, not as top-level keywords. Anthropic `messages` still requires `max_tokens=` as its own argument |
 | `gemini.generate_videos(...)` | `generate_video` (singular). Video generation uses Omni models, e.g. `generate_video(prompt, model='gemini-omni-1.1-flash')` |
-| `from pixeltable.iterators import ...` | The whole `pixeltable.iterators` package is a deprecated shim (`FrameIterator`, `VideoSplitter`, `DocumentSplitter`, `StringSplitter`, `AudioSplitter`, `TileIterator`). Import the function from `pixeltable.functions.*` -- e.g. `from pixeltable.functions.video import frame_iterator` |
+| `from pixeltable.iterators import ...` | Removed in 0.7.25 (the import fails). Import the function from `pixeltable.functions.*` -- e.g. `from pixeltable.functions.video import frame_iterator` |
 | `similarity(query)` | `similarity(string=query)`. Also `image=` / `audio=` / `video=` / `document=` / `vector=`; `idx=` picks among several indexes on one column |
-| Re-run with `if_exists='ignore'` to fix logic | App: edit the expression, `pxt schema update`, then `pxt recompute my_app/docs summary -f`: the update keeps the old values. Notebook: `t.alter_computed_column(summary=...)`, which recomputes it and its dependents |
+| Re-run with `if_exists='ignore'` to fix logic | That skip is for `create_*` / `add_*`, not `insert`. App: edit the expression, `pxt schema update`, then `pxt recompute my_app/docs summary -f`: the update keeps the old values. Notebook: `t.alter_computed_column(summary=...)`, which recomputes it and its dependents |
 | Change a column's type in place (`T` to `T \| None`, stored to computed, `stored=`) | `UNSUPPORTED`: the whole update applies nothing, and `--allow-destructive` does not help. A computed column: rename it (one `--allow-destructive -f` pass). A stored column: renaming drops its data, so declare `T \| None` up front |
 | `t.summary_errortype` | `t.summary.errortype` / `t.summary.errormsg`, on stored computed or media columns. `t.<col>.fileurl` / `.localpath` for media |
-| `pxt.Required[pxt.String]` | Non-nullable by default. Optional: `T \| None` |
+| `pxt.Required[pxt.String]` | Removed in 0.7.25. Non-nullable by default. Optional: `T \| None` |
+| `f'{t.title}'` / `'{}'.format(t.title)` | Raises on a Pixeltable expression. Concatenate with `+`, or `pxtf.string.format('Hello {0}', t.title)` |
 | `@pxt.udf def f(x: str)` fed a nullable column | A non-nullable parameter that receives `None` **skips the call**: the cell is `None` and `errormsg` is empty. Annotate `x: str \| None` and handle `None` in the body |
 | `whisper.load_model(...)` inside a UDF body | Weights reload on every row. Use the shipped wrapper (`pxtf.whisper.transcribe`, `clip.using(...)`), or a module-scope cached loader |
 | `recompute_columns(columns=['summary'])` | `t.recompute_columns('summary', errors_only=True)` |
@@ -210,7 +211,7 @@ t = pxt.create_table('my_project.documents', {
 }, if_exists='ignore')
 ```
 
-Types are non-nullable by default. Optional is `T | None`. Do not use `pxt.Required`.
+Types are non-nullable by default. Optional is `T | None`. `pxt.Required` was removed in 0.7.25.
 
 ```python
 from pixeltable.functions.uuid import uuid7
@@ -221,7 +222,7 @@ t = pxt.create_table('my_project.items', {
 }, primary_key=['uuid'], if_exists='ignore')
 ```
 
-Insert: `t.insert([{...}])`. Computed column:
+Insert: `t.insert([{...}])`. On a table with a primary key, `insert(..., if_exists='ignore')` skips rows whose key is already present (`row_count_stats.skipped_rows`; their computed columns are not evaluated). That is not the schema `if_exists='ignore'` that skips a `create_*` / `add_*` call. Counts on the returned status are `row_count_stats.inserted_rows` / `deleted_rows` / `updated_rows` (the `ins_rows` / `del_rows` / `upd_rows` names were removed in 0.7.25). `t.batch_update([{'id': 1, 'score': 2.0}], if_not_exists='ignore')` takes `cascade=`, `if_not_exists=`, and `return_rows=` as keywords only (0.7.25). Computed column:
 
 ```python
 from pixeltable.functions.openai import chat_completions
@@ -241,7 +242,7 @@ Views: `document_splitter`, `frame_iterator` (from `pixeltable.functions.video`)
 
 Query: `t.where(...).select(...).collect()`. Similarity: `t.content.similarity(string=query)`. In `@pxt.query`, alias as `score=sim`.
 
-UDFs are recorded as a module path relative to the project root (`app.excerpt`).
+UDFs are recorded as a module path relative to the project root (`app.excerpt`). Try one on Python values without a table: `pxt.eval_udf(excerpt, 'hello world', n=4)`. A media argument can be a path or URL. Aggregates and iterators cannot be evaluated this way.
 
 Always `if_exists='ignore'` on notebook `create_*` / `add_*`. Failed cells: `t.recompute_columns('summary', errors_only=True)`, or `pxt recompute my_project/documents summary --errors-only -f`. `string_splitter` / `document_splitter(..., separators='sentence')` need spaCy. Embedding indexes need `.using(...)` to bind model arguments.
 
