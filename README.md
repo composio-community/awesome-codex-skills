@@ -142,6 +142,7 @@ Codex skills are modular instruction bundles that tell Codex how to execute a ta
 - [raffle-winner-picker/](./raffle-winner-picker/) - Randomly select winners with audit-friendly logs.
 - [langsmith-fetch/](./langsmith-fetch/) - Pull LangSmith project/test data for analysis.
 - [helium-mcp/](./helium-mcp/) - Search real-time news with bias scoring, get live market data, ML options pricing, and balanced news synthesis via MCP.
+- [publicrecords-skills](https://github.com/GeminiGeorge22/publicrecords-skills) - Agent Skills + MCP plugin (Claude Code, Codex, Copilot, Cursor, Gemini CLI, Kiro) for 18 public-data Apify Actors: SAM.gov, Grants.gov, USAspending, EU/UK tenders, council meetings, ATS jobs, company socials, Google Ads, Etsy, sports odds, Spotify.
 
 ### Meta & Utilities
 
