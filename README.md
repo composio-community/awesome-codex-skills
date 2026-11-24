@@ -142,6 +142,7 @@ Codex skills are modular instruction bundles that tell Codex how to execute a ta
 - [raffle-winner-picker/](./raffle-winner-picker/) - Randomly select winners with audit-friendly logs.
 - [langsmith-fetch/](./langsmith-fetch/) - Pull LangSmith project/test data for analysis.
 - [helium-mcp/](./helium-mcp/) - Search real-time news with bias scoring, get live market data, ML options pricing, and balanced news synthesis via MCP.
+- [seo-proofkit](https://github.com/ErikThiart/seo-proofkit) - Forensic SEO with native Google Search Console support: reads every export, both APIs and BigQuery bulk export, traces traffic drops to the pages and queries that lost them, and verifies fixes on the live site. Install: `python3 ~/.codex/skills/.system/skill-installer/scripts/install-skill-from-github.py --repo ErikThiart/seo-proofkit --path skills/erikthiart-seo-proofkit --name erikthiart-seo-proofkit`
 
 ### Meta & Utilities
 
