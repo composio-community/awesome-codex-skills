@@ -142,6 +142,7 @@ Codex skills are modular instruction bundles that tell Codex how to execute a ta
 - [raffle-winner-picker/](./raffle-winner-picker/) - Randomly select winners with audit-friendly logs.
 - [langsmith-fetch/](./langsmith-fetch/) - Pull LangSmith project/test data for analysis.
 - [helium-mcp/](./helium-mcp/) - Search real-time news with bias scoring, get live market data, ML options pricing, and balanced news synthesis via MCP.
+- [youtube-full (TranscriptOut)](https://github.com/artemchuikin/youtube-skills/tree/main/skills/youtube-full) - External repo: YouTube transcripts, video and channel search, channel and playlist browsing, and 4,000-video batch jobs for agents. No Google API key, and the agent can create the account from the chat. Install: `python3 ~/.codex/skills/.system/skill-installer/scripts/install-skill-from-github.py --repo artemchuikin/youtube-skills --path skills/youtube-full --name youtube-full`
 
 ### Meta & Utilities
 
