@@ -142,6 +142,7 @@ Codex skills are modular instruction bundles that tell Codex how to execute a ta
 - [raffle-winner-picker/](./raffle-winner-picker/) - Randomly select winners with audit-friendly logs.
 - [langsmith-fetch/](./langsmith-fetch/) - Pull LangSmith project/test data for analysis.
 - [helium-mcp/](./helium-mcp/) - Search real-time news with bias scoring, get live market data, ML options pricing, and balanced news synthesis via MCP.
+- [feraterra-trading](https://github.com/FeraTerra/feraterra-sdk/tree/main/skills/feraterra-trading) - Deterministic fixed-point CLOB order previewing, oracle-pegged market making, zero-capital flash arbitrage, and Keccak-256 ledger-tip verification on FeraTerra / Arena Exchange via 24-tool MCP gateway (`feraterra-sdk` v4.9.4) or Python SDK. Install: `python3 ~/.codex/skills/.system/skill-installer/scripts/install-skill-from-github.py --repo FeraTerra/feraterra-sdk --path skills/feraterra-trading --name feraterra-trading`
 
 ### Meta & Utilities
 
