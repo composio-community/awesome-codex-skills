@@ -142,6 +142,7 @@ Codex skills are modular instruction bundles that tell Codex how to execute a ta
 - [raffle-winner-picker/](./raffle-winner-picker/) - Randomly select winners with audit-friendly logs.
 - [langsmith-fetch/](./langsmith-fetch/) - Pull LangSmith project/test data for analysis.
 - [helium-mcp/](./helium-mcp/) - Search real-time news with bias scoring, get live market data, ML options pricing, and balanced news synthesis via MCP.
+- [b2b-ai-mcp-skills](https://github.com/truonggiang0111/b2b-ai-mcp-skills) - 15 portable B2B intelligence Agent Skills with zero-key pipelines (Google News URL decoding, UK Gov Tenders, ClinicalTrials.gov) plus optional APIFY_TOKEN cloud scrapers.
 
 ### Meta & Utilities
 
